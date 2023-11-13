@@ -1,0 +1,9 @@
+{
+  "name": "full-stack-from-zero",
+  "private": true,
+  "description": "Do some full-stack coding from zero",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
+}
