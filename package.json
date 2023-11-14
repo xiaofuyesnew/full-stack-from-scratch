@@ -1,9 +1,19 @@
 {
   "name": "full-stack-from-zero",
+  "type": "module",
   "private": true,
   "description": "Do some full-stack coding from zero",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs:dev": "pnpm -F full-stack-from-scratch-docs dev",
+    "docs:build": "pnpm -F full-stack-from-scratch-docs build",
+    "docs:preview": "pnpm -F full-stack-from-scratch-docs preview"
   },
-  "license": "MIT"
+  "devDependencies": {
+    "@antfu/eslint-config": "^1.1.1",
+    "@iconify/json": "^2.2.142",
+    "eslint": "^8.53.0",
+    "unocss": "^0.57.3",
+    "vite-plugin-mkcert": "^1.16.0"
+  }
 }

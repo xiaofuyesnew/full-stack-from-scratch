@@ -1,0 +1,12 @@
+{
+  "name": "full-stack-from-scratch-docs",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "1.0.0-rc.25"
+  }
+}

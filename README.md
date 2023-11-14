@@ -1,3 +1,3 @@
-# Full-stack From Zero
+# Full-stack From Scratch
 
-> Do some full-stack coding from zero
+> Do some full-stack coding from scratch
