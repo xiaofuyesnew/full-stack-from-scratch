@@ -1,7 +1,15 @@
 {
   "name": "full-stack-from-scratch-server",
+  "type": "module",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./build/index.mjs",
+    "build": "npx unbuild"
   },
-  "license": "MIT"
+  "dependencies": {
+    "koa": "^2.14.2"
+  },
+  "devDependencies": {
+    "unbuild": "^2.0.0"
+  }
 }
