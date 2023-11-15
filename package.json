@@ -5,6 +5,7 @@
   "description": "Do some full-stack coding from zero",
   "license": "MIT",
   "scripts": {
+    "server:start": "pnpm -F full-stack-from-scratch-server start",
     "docs:dev": "pnpm -F full-stack-from-scratch-docs dev",
     "docs:build": "pnpm -F full-stack-from-scratch-docs build",
     "docs:preview": "pnpm -F full-stack-from-scratch-docs preview"
