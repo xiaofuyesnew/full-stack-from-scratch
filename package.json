@@ -6,9 +6,12 @@
   "license": "MIT",
   "scripts": {
     "server:start": "pnpm -F full-stack-from-scratch-server start",
+    "server:dev": "pnpm -F full-stack-from-scratch-server dev",
     "docs:dev": "pnpm -F full-stack-from-scratch-docs dev",
     "docs:build": "pnpm -F full-stack-from-scratch-docs build",
-    "docs:preview": "pnpm -F full-stack-from-scratch-docs preview"
+    "docs:preview": "pnpm -F full-stack-from-scratch-docs preview",
+    "lint": "npx eslint .",
+    "lint:fix": "npx eslint . --fix"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^1.1.1",
