@@ -13,6 +13,9 @@
     "lint": "npx eslint .",
     "lint:fix": "npx eslint . --fix"
   },
+  "dependencies": {
+    "dayjs": "^1.11.10"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^1.1.1",
     "@iconify/json": "^2.2.142",
