@@ -14,9 +14,9 @@ app.use((ctx) => {
 })
 
 if (process.env.NODE_ENV === 'development') {
-  app.use(sslify.default({
-    port: process.env.PORT,
-  }))
+  // app.use(sslify.default({
+  //   port: process.env.PORT,
+  // }))
 
   const options = {
     key: readFileSync(resolve(os.homedir(), '.vite-plugin-mkcert/dev.pem')),
